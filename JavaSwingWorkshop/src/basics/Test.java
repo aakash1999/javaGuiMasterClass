@@ -1,5 +1,7 @@
 package basics;
 
+import java.util.ArrayList;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -20,6 +22,10 @@ public class Test {
 		Student student2 = new Student("Aakash", "75", "Feb 2", "2222");
 		
 		student2.display();
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		
+		
 		
 
 	}
